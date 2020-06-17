@@ -24,8 +24,8 @@ class StateMachine:
     def get_problem(self):
         return self.Problem
 
-    def set_state(self):
-        None
+    def set_state(self, state):
+        self.State = state
 
         
     def change_state(self, character_list=CharacterList()):

@@ -128,17 +128,17 @@ def see_level_2(character_list=CharacterList()):
     print(out)
     print(out4)
 
-
-tmp = process_text("12 + (2i + 4) + (10 + 46i)")
-give_level_1(tmp)
-give_level_2(tmp)
-give_level_3(tmp)
-see_level_2(tmp)
-tmp = sort_level_2(tmp)
-print("   ")
-see_level_2(tmp)
-
-tmp = sort_level_3(tmp)
-print("   ")
-see_level_2(tmp)
-print(tmp)
+#
+# tmp = process_text("12 + (2i + 4) + (10 + 46i)")
+# give_level_1(tmp)
+# give_level_2(tmp)
+# give_level_3(tmp)
+# see_level_2(tmp)
+# tmp = sort_level_2(tmp)
+# print("   ")
+# see_level_2(tmp)
+#
+# tmp = sort_level_3(tmp)
+# print("   ")
+# see_level_2(tmp)
+# print(tmp)

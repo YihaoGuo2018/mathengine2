@@ -18,9 +18,12 @@ def math_engine():
 
     problem_id = request.get_json()["problem_id"]
     parameter_number = request.get_json()["parameter_number"]
-    parameter_list = request.get_json()["parameter_list"].split(",")
-    for i in range(len(parameter_number)):
+    tmppp = request.get_json()["parameter_list"]
+    parameter_list = tmppp.split(",")
+    for i in range(parameter_number):
         parameter_list[i] = int(parameter_list[i])
+
+
     old_step = request.get_json()["old_step"]
     answer = request.get_json()["answer"]
 
@@ -44,3 +47,5 @@ def math_engine():
     out_result = json.dumps(out_result)
     return out_result
 
+if __name__ == '__main__':
+    app.run()
