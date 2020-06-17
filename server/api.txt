@@ -1,0 +1,19 @@
+
+
+path：MathEngine/1
+type：post
+body：
+	{
+		"problem_id":1
+		"parameter_number":4
+		"parameter_list":"-6,-2,4,5",
+		"old_step":1,
+		"answer":"student's answer"
+	}
+return：
+	{
+		"right":true,
+		"wrong":false,
+		"new_step":3,
+		"feedback":"feedback of student's answer"
+	}
