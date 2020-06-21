@@ -48,6 +48,7 @@ class StateMachine:
             out_result.set_wrong()
         out_result.set_step(new_state.get_step())
         out_result.set_feedback(situation.get_feedback())
+        out_result.set_end(situation.is_end)
         return out_result
 
 

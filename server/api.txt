@@ -8,12 +8,14 @@ body：
 		"parameter_number":4
 		"parameter_list":"-6,-2,4,5",
 		"old_step":1,
-		"answer":"student's answer"
+		"answer":"student's answer",
+		"is_end": 1
 	}
 return：
 	{
 		"right":true,
 		"wrong":false,
 		"new_step":3,
-		"feedback":"feedback of student's answer"
+		"feedback":"feedback of student's answer",
+		"is_end": 1
 	}

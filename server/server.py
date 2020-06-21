@@ -42,7 +42,7 @@ def math_engine():
     result = state_machine.change_state(answer)
 
     out_result = {"right": result.is_right(), "wrong": result.is_wrong(), "new_step": result.get_step(),
-                  "feedback": result.get_feedback()}
+                  "feedback": result.get_feedback(), "is_end": result.is_end()}
 
     out_result = json.dumps(out_result)
     return out_result

@@ -6,6 +6,13 @@ class Result:
         self.Wrong_Answer = False
         self.New_step = 0
         self.Feedback = "your answer has a mistake here"
+        self.IsEnd = False
+
+    def set_end(self, end):
+        self.IsEnd = end
+
+    def is_end(self):
+        return self.IsEnd
 
     def set_right(self):
         self.Right_Answer = True
